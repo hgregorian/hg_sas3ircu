@@ -9,3 +9,5 @@ depends 'kernel-modules'
 
 supports 'centos'
 supports 'redhat'
+source_url 'https://github.com/hgregorian/hg_sas3ircu' if defined?(:source_url)
+issues_url 'https://github.com/hgregorian/hg_sas3ircu/issues' if defined?(:issues_url)
