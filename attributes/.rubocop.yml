@@ -1,0 +1,5 @@
+inherit_from: ../.rubocop.yml
+
+Metrics/LineLength:
+  Description: Line length restriction produces errors for attributes
+  Enabled: false
