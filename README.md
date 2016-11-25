@@ -1,15 +1,16 @@
 # hg_sas3ircu cookbook
 
-Simply installs the 'sas3ircu' utility as provided by [Avago downloads].
+Installs the 'sas3ircu' utility as provided by [Avago downloads] and optionally the `mpt3sas` kernel module.
 
 ## Supported Platforms
 
-* CentOS 6/7
+* CentOS/RHEL 7
 
 ## Attributes
 
 | Key | Type | Description | Default |
 | --- | ---- | ----------- | ------- |
+|`node['hg_sas3ircu']['install_kernel_module']`|Boolean|Whether or not to install `mpt3sas` kernel module|true|
 |`node['hg_sas3ircu']['release']`|String|Release of `sas3ircu` to install|'13'|
 |`node['hg_sas3ircu']['download_url']`|String|URL to retrieve zip archive (URL is formed using above release)|[see default attributes](attributes/default.rb)|
 
