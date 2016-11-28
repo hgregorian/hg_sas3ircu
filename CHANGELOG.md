@@ -1,3 +1,6 @@
+# 0.1.2
+- bug in upstream cookbook `kernel-modules` `available?` method; removing 'check_availability' for now
+
 # 0.1.1
 - split kernel module into separate recipe, added attribute for controlling installation
 - dropped support for el6
