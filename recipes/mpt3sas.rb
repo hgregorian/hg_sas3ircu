@@ -11,5 +11,4 @@ end
 kernel_module 'mpt3sas' do
   onboot true
   reload false
-  check_availability true
 end
